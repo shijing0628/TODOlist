@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo list app</title>
+    <!-- roboto fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/reset.min.css">
+</head>
+<body>
+    <header>
+       <input type="text" placeholder="Enter an activity..." id="item"> 
+       <button id="add">
+        <svg width="50" height="50" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="white"/><line x1="13" y1="19.5" x2="28" y2="19.5" stroke="#F97300"/><line x1="20.5" y1="13" x2="20.5" y2="28" stroke="#F97300"/></svg>          
+       </button>
+    </header>
+
+<div class="container">
+         <ul class="todo" id="todo">
+                <!-- <li> this is an item.
+               <div class="buttons">
+                    <button class="remove">
+                            <svg aria-hidden="true" fill="#c0cecb" focusable="false" data-prefix="far" data-icon="trash-alt" class="svg-inline--fa fa-trash-alt fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M268 416h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12zM432 80h-82.41l-34-56.7A48 48 0 0 0 274.41 0H173.59a48 48 0 0 0-41.16 23.3L98.41 80H16A16 16 0 0 0 0 96v16a16 16 0 0 0 16 16h16v336a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128h16a16 16 0 0 0 16-16V96a16 16 0 0 0-16-16zM171.84 50.91A6 6 0 0 1 177 48h94a6 6 0 0 1 5.15 2.91L293.61 80H154.39zM368 464H80V128h288zm-212-48h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12z"></path></svg>
+                    </button>
+                    <button class="complete">
+                            <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28.5 14.5C28.5 21.6322 22.5042 27.5 15 27.5C7.49582 27.5 1.5 21.6322 1.5 14.5C1.5 7.36782 7.49582 1.5 15 1.5C22.5042 1.5 28.5 7.36782 28.5 14.5Z" stroke="#5E9AC4" stroke-width="3"/> <path d="M8 14.5L13 20L21.5 7.5" stroke="#5E9AC4" stroke-width="3"/></svg>
+                    </button>
+               </div>
+            </li> -->
+            </ul> 
+           
+            <!-- complete list -->
+            <ul class="todo" id="completed">
+ 
+            </ul>
+</div>
+
+    <script src="../resources/js/main.js"></script>
+</body>
+</html>
